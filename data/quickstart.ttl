@@ -1,0 +1,28 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmi: <http://purl.org/dc/terms/> .
+@prefix mkg: <https://wirapongc.kku.ac.th/ns/metadata-kg#> .
+
+mkg:auto-63773385 a dcat:Dataset ;
+    dcmi:description """Hourly PM2.5 and PM10 measurements from 80 air quality stations across all 76 provinces of Thailand.
+publisher: {'name': 'Pollution Control Department', 'type': 'Organization'}
+issued: 2024-01-01
+modified: 2024-12-31
+license: CC-BY-4.0
+keyword: air-quality, PM2.5, Thailand, environment
+theme: environment, public-health
+language: th, en
+spatial: Thailand
+temporal: 2024-01-01/2024-12-31
+distribution: {'title': 'CSV download', 'format': 'CSV', 'mediaType': 'text/csv', 'downloadURL': 'https://example.gov.th/air-quality/2024.csv'}, {'title': 'API endpoint', 'format': 'JSON', 'mediaType': 'application/json', 'accessURL': 'https://api.example.gov.th/air-quality'}""" ;
+    dcmi:title "Thailand Air Quality 2024" ;
+    dcat:keyword "Air",
+        "CC-BY-4",
+        "CSV",
+        "Control",
+        "Department",
+        "Hourly",
+        "Organization",
+        "PM10",
+        "Pollution",
+        "Thailand" .
+
