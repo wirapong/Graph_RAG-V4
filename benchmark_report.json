@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-04 15:25:30",
+  "extraction": {
+    "extraction_title_precision": 1.0,
+    "extraction_key_coverage": 1.0,
+    "n_cases": 4
+  },
+  "search": {
+    "keyword_P@5": 1.0,
+    "keyword_MRR@5": 1.0,
+    "keyword_latency_ms_mean": 0.015928543039730618,
+    "semantic_P@5": 1.0,
+    "semantic_MRR@5": 1.0,
+    "semantic_latency_ms_mean": 0.016857188061944077,
+    "hybrid_P@5": 1.0,
+    "hybrid_MRR@5": 1.0,
+    "hybrid_latency_ms_mean": 0.03075002626116787
+  },
+  "config": {
+    "llm_used": false,
+    "embedding": "hash-fallback",
+    "n_search_docs": 7,
+    "n_search_queries": 7
+  }
+}
